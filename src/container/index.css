@@ -1,0 +1,54 @@
+.constBox{
+    display: flex;
+    height:50vh;  /* 50 vh -> view height, 50% height of screen that currently being renderes */
+    justify-content: center;  /* center them horizontally */
+    align-items: center; /* center them vertically */
+    flex-flow: row wrap;
+    position: "relative";
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border-style: groove;
+    border-color: black;
+    color: beige;
+}
+
+.btn{
+    padding: 10px 19px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color: #7db4e7ec;
+    border-style: dotted;
+    margin: 5px;
+}
+
+.btn-toggle{
+    padding: 10px 19px;
+    cursor: pointer;
+    border-radius: 3px;
+    background-color:#3CB043;
+    border-style: dotted;
+    color: beige;
+    margin: 5px;
+}
+
+.btn:hover {
+    background-color: #2260d0;
+    color: beige;
+    
+  }
+
+.inactive{
+    background-color: #87629b;
+}
+
+.active{
+    background-color: #2877B5;
+    height: 200px;
+    width: 200px;
+    transition: #2877B5 4s ease-in-out;
+}
+
