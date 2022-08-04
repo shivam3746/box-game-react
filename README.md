@@ -10,7 +10,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 #### `yarn install`
 
 ● In case you face any issue with `yarn install` try creating a .yarnrc file inside of root directory having the following content:
-## network-timeout 600000
+#### network-timeout 600000
 
 ### Run Project
 #### `yarn start`
