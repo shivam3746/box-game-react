@@ -9,6 +9,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ### Setup
 #### `yarn install`
 
+● In case you face any issue with `yarn install` try creating a .yarnrc file inside of root directory having the following content:
+## network-timeout 600000
+
 ### Run Project
 #### `yarn start`
 
@@ -35,6 +38,9 @@ User gets to see a button to add a new box in the window. On clicking the button
 ● Haven't used any NPM library to achieve this behaviour.
 
 ● This project is built without any extra NPM libraries to handle keyBoard events.
+
+
+
 
 
 
